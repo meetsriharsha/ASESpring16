@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+</head>
+<body class="loginbody">
+<br/>   
+      <div align="center">
+          <br/>
+         <form action="login" method="get">
+        username <input type="text" name="username2"/><br/><br/>
+        
+          password  <input type="password" name="password2"/><br/><br/>
+        
+       
+         <input type="submit" value="submit">
+                </form>
+        </div>
+      <br/>
+      
+</body>
+</html>
