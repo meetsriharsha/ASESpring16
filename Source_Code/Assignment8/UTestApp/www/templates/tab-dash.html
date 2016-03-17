@@ -1,0 +1,16 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <div class="login">
+      <div class="login-triangle"></div>
+
+      <h2 class="login-header">Log in</h2>
+
+      <form ng-submit="doLogin(sso, password)" name="$parent.loginForm" class="login-container">
+        <p><input type="text" placeholder="SSO" ng-model="sso"></p>
+        <p><input type="password" placeholder="password" ng-model="password"></p>
+        <p><input type="submit" value="Log in"></p>
+        <div id="msg"></div>
+      </form>
+    </div>
+  </ion-content>
+</ion-view>
